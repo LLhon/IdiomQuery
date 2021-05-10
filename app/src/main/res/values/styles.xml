@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="BaseAppTheme" parent="@style/Theme.AppCompat.DayNight">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="textColorPrimary">@color/textColorPrimary</item>
+    <item name="viewBackground">@color/viewBackground</item>
+    <!--关闭启动窗口-->
+    <item name="android:windowDisablePreview">true</item>
+  </style>
+
+  <style name="BaseAppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+
+  <style name="AppTheme" parent="BaseAppTheme.NoActionBar"></style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="ToolbarStyle" parent="AppTheme">
+    <item name="android:textColorSecondary">@android:color/white</item>
+    <item name="searchHintIcon">@null</item>
+  </style>
+
+  <!-- 设置Toolbar标题字体的大小 -->
+  <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textSize">@dimen/sp_18</item>
+  </style>
+
+  <!-- 浮动窗口动画 -->
+  <style name="anim_float_view">
+    <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+    <item name="android:windowExitAnimation">@anim/push_up_out</item>
+  </style>
+
+</resources>

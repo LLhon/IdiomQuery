@@ -1,3 +1,17 @@
 <resources>
   <string name="app_name">IdiomQuery</string>
+
+  <string name="home">查询</string>
+  <string name="project">收藏</string>
+  <string name="wechat">历史记录</string>
+
+  <string name="exit_tip">再按一次退出程序</string>
+  <string name="confirm">确定</string>
+  <string name="cancel">取消</string>
+  <string name="no_data">暂无数据</string>
+  <string name="no_network">网络异常</string>
+  <string name="no_network_tip">请检查网络后点击重新加载</string>
+  <string name="data_error">数据获取失败</string>
+  <string name="network_unavailable_tip">网络连接不可用,请检查网络设置!</string>
+
 </resources>
