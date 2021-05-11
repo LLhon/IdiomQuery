@@ -8,16 +8,16 @@
         android:title="@string/home"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_system"
+        android:id="@+id/action_collect"
         android:enabled="true"
         android:icon="@drawable/ic_apps_black_24dp"
-        android:title="@string/wechat"
+        android:title="@string/collect"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_project"
+        android:id="@+id/action_history"
         android:enabled="true"
         android:icon="@drawable/ic_project_black_24dp"
-        android:title="@string/project"
+        android:title="@string/history"
         app:showAsAction="ifRoom" />
 
 </menu>

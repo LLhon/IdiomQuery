@@ -2,8 +2,8 @@
   <string name="app_name">IdiomQuery</string>
 
   <string name="home">查询</string>
-  <string name="project">收藏</string>
-  <string name="wechat">历史记录</string>
+  <string name="collect">收藏</string>
+  <string name="history">历史记录</string>
 
   <string name="exit_tip">再按一次退出程序</string>
   <string name="confirm">确定</string>

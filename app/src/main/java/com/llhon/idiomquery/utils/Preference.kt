@@ -83,8 +83,8 @@ class Preference<T>(val name: String, private val default: T) {
             is Int -> getInt(name, default)
             is Boolean -> getBoolean(name, default)
             is Float -> getFloat(name, default)
-            else -> deSerialization(getString(name, serialize(default)))
-        }
+            else -> getString(name, serialize(default))?.let { deSerialization(it) }
+        }!!
         return res as T
     }
 
